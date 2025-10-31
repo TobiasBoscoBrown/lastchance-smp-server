@@ -1,0 +1,9 @@
+-encoding
+UTF-8
+--release
+21
+-cp
+C:\\\\mc\\\\Server\\\\server.jar;C:\\mc\\Server\\libraries\\io\\papermc\\paper\\paper-api\\1.21.10-R0.1-SNAPSHOT\\paper-api-1.21.10-R0.1-SNAPSHOT.jar
+-d
+C:\\mc\\Server\\plugins-src\\DeathsReporter\\build\\\\classes
+C:\\mc\\Server\\plugins-src\\DeathsReporter\\src\\main\\java\\com\\example\\deaths\\DeathsReporterPlugin.java

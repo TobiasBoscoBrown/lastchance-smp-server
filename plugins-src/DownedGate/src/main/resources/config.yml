@@ -1,0 +1,5 @@
+baseUrl: "http://localhost:3000/api"
+apiKey: "bobbyboi"
+failOpenOnError: true
+kickMessage: "You are currently downed. Please wait to be revived."
+pathTemplate: "/player/%s/downed" # final URL is: baseUrl + sprintf(pathTemplate, uuid)

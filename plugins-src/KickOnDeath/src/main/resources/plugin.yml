@@ -1,0 +1,6 @@
+name: KickOnDeath
+main: com.example.kickondeath.KickOnDeathPlugin
+version: 1.0.0
+author: You
+api-version: "1.20"
+description: Kicks players 30 seconds after they die

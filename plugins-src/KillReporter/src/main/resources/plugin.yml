@@ -1,0 +1,6 @@
+name: KillReporter
+main: com.example.killreporter.KillReporterPlugin
+version: 1.0.0
+author: You
+api-version: "1.20"
+description: Reports player-vs-player kills to an external API

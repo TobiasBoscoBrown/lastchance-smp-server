@@ -1,0 +1,4 @@
+# Default configuration for KickOnDeath
+seconds: 45
+message: "You died. Kicked after %s seconds."
+countdown: "Kicking in %ds..."

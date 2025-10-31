@@ -1,0 +1,6 @@
+name: DownedGate
+main: com.example.downedgate.DownedGatePlugin
+version: 1.0.0
+author: You
+api-version: "1.20"
+description: Deny login if API reports the player is downed

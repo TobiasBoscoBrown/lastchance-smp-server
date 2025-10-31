@@ -1,0 +1,6 @@
+name: SessionsReporter
+main: com.example.sessions.SessionsReporterPlugin
+version: 1.0.0
+author: You
+api-version: "1.20"
+description: Posts player session events (join/quit/heartbeat) to an external API

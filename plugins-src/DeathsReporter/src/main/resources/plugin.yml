@@ -1,0 +1,6 @@
+name: DeathsReporter
+main: com.example.deaths.DeathsReporterPlugin
+version: ${version}
+author: You
+api-version: "1.20"
+description: Posts player death events to an external API

@@ -1,0 +1,39 @@
+# Minecraft server runtime (do not version)
+server.jar
+paper*.jar
+cache/
+logs/
+crash-reports/
+# Worlds
+world/
+world_nether/
+world_the_end/
+# Runtime JSON/state
+banned-*.json
+ops.json
+usercache.json
+whitelist.json
+# Paper/MC runtime dirs
+plugins/
+libraries/
+versions/
+updates/
+# Java/Build artifacts
+**/build/
+**/out/
+*.class
+*.log
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep plugin sources and scripts
+!plugins-src/**
+# Allow top-level scripts/configs
+!start.ps1
+!get-paper.ps1
+!plugins-src/**
