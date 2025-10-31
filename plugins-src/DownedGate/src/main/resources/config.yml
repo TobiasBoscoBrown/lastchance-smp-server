@@ -1,4 +1,4 @@
-baseUrl: "http://localhost:3000/api"
+baseUrl: "https://lastchance-smp.vercel.app/api"
 apiKey: "bobbyboi"
 failOpenOnError: true
 kickMessage: "You are currently downed. Please wait to be revived."

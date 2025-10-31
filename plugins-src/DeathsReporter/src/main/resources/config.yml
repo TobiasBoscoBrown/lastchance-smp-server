@@ -1,2 +1,2 @@
-apiUrl: "http://localhost:3000/api/deaths"
+apiUrl: "https://lastchance-smp.vercel.app/api/deaths"
 apiKey: "bobbyboi"
