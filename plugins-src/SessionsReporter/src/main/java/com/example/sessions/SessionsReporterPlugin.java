@@ -33,7 +33,7 @@ public final class SessionsReporterPlugin extends JavaPlugin implements Listener
     @Override
     public void onEnable() {
         saveDefaultConfig();
-        this.baseUrl = getConfig().getString("baseUrl", "http://localhost:3000/api/sessions");
+        this.baseUrl = "https://lastchance-smp.vercel.app/api/sessions";
         this.apiKey = getConfig().getString("apiKey", "");
         this.heartbeatSeconds = getConfig().getInt("heartbeatSeconds", 60);
         this.client = HttpClient.newBuilder()

@@ -24,7 +24,7 @@ public final class KillReporterPlugin extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         saveDefaultConfig();
-        this.baseUrl = getConfig().getString("api.baseUrl", "http://localhost:3000");
+        this.baseUrl = "https://lastchance-smp.vercel.app";
         this.apiKey = getConfig().getString("api.key", "");
         this.client = HttpClient.newBuilder()
                 .connectTimeout(Duration.ofSeconds(5))

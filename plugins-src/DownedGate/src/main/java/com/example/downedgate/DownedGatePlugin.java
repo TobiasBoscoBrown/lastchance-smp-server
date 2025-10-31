@@ -24,7 +24,7 @@ public final class DownedGatePlugin extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         saveDefaultConfig();
-        this.baseUrl = getConfig().getString("baseUrl", "http://localhost:3000/api");
+        this.baseUrl = "https://lastchance-smp.vercel.app/api";
         this.apiKey = getConfig().getString("apiKey", "");
         this.failOpenOnError = getConfig().getBoolean("failOpenOnError", true);
         this.kickMessage = getConfig().getString("kickMessage", "You are currently downed. Please wait to be revived.");

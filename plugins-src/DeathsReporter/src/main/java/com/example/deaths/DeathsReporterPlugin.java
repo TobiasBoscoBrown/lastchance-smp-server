@@ -23,7 +23,7 @@ public final class DeathsReporterPlugin extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         saveDefaultConfig();
-        this.apiUrl = getConfig().getString("apiUrl", "http://localhost:3000/api/deaths");
+        this.apiUrl = "https://lastchance-smp.vercel.app/api/deaths";
         this.apiKey = getConfig().getString("apiKey", "");
         this.client = HttpClient.newBuilder()
                 .connectTimeout(Duration.ofSeconds(5))
