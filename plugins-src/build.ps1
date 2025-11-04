@@ -1,5 +1,5 @@
 param(
-  [ValidateSet('All','DeathsReporter','SessionsReporter','DownedGate','KickOnDeath','KillReporter')]
+  [ValidateSet('All','DeathsReporter','SessionsReporter','DownedGate','KickOnDeath','KillReporter','RandomSpawn')]
   [string]$Plugin = 'All'
 )
 
@@ -15,12 +15,13 @@ function Build-One($name) {
 }
 
 switch ($Plugin) {
-  'All' { Build-One 'DeathsReporter'; Build-One 'SessionsReporter'; Build-One 'DownedGate'; Build-One 'KickOnDeath'; Build-One 'KillReporter' }
+  'All' { Build-One 'DeathsReporter'; Build-One 'SessionsReporter'; Build-One 'DownedGate'; Build-One 'KickOnDeath'; Build-One 'KillReporter'; Build-One 'RandomSpawn' }
   'DeathsReporter' { Build-One 'DeathsReporter' }
   'SessionsReporter' { Build-One 'SessionsReporter' }
   'DownedGate' { Build-One 'DownedGate' }
   'KickOnDeath' { Build-One 'KickOnDeath' }
   'KillReporter' { Build-One 'KillReporter' }
+  'RandomSpawn' { Build-One 'RandomSpawn' }
 }
 
 Write-Host "Done. Check c:\mc\Server\plugins for installed jars."

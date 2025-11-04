@@ -1,0 +1,22 @@
+world: world
+nametagDistance: 64
+outerFactor: 2.0
+retries: 25
+minY: 63
+safeRadiusCheck: 2
+setSpawnPoint: true
+avoidBiomes:
+  - OCEAN
+  - DEEP_OCEAN
+  - FROZEN_OCEAN
+  - COLD_OCEAN
+  - LUKEWARM_OCEAN
+  - WARM_OCEAN
+  - RIVER
+avoidBlocks:
+  - WATER
+  - LAVA
+  - MAGMA_BLOCK
+  - CACTUS
+  - FIRE
+blacklistWorlds: [world_nether, world_the_end]
