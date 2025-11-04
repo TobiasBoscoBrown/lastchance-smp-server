@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Usage: ./build.sh [All|DeathsReporter|SessionsReporter|DownedGate|KickOnDeath|KillReporter]
+# Usage: ./build.sh [All|DeathsReporter|SessionsReporter|DownedGate|KickOnDeath|KillReporter|RandomSpawn]
 TARGET="${1:-All}"
 
 # Resolve server root = parent of this script directory
@@ -89,12 +89,13 @@ case "${TARGET}" in
     build_one "DownedGate"
     build_one "KickOnDeath"
     build_one "KillReporter"
+    build_one "RandomSpawn"
     ;;
-  DeathsReporter|SessionsReporter|DownedGate|KickOnDeath|KillReporter)
+  DeathsReporter|SessionsReporter|DownedGate|KickOnDeath|KillReporter|RandomSpawn)
     build_one "${TARGET}"
     ;;
   *)
-    echo "Usage: $0 [All|DeathsReporter|SessionsReporter|DownedGate|KickOnDeath|KillReporter]" >&2
+    echo "Usage: $0 [All|DeathsReporter|SessionsReporter|DownedGate|KickOnDeath|KillReporter|RandomSpawn]" >&2
     exit 2
     ;;
 esac
